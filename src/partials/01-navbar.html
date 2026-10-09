@@ -1,0 +1,36 @@
+<a class="skip-link" href="#main">Skip to content</a>
+<header class="nav" data-nav>
+  <div class="nav__bar">
+    <a class="nav__brand" href="#top" aria-label="{{BRAND}} — home">
+      <span class="nav__logo">{{LOGO variant="exact" sizes="56px" class="logo logo--round" alt="" width="56"}}</span>
+    </a>
+
+    <nav class="nav__links" aria-label="Primary">
+      <a href="#about" data-link data-text="About"><span>About</span></a>
+      <a href="#services" data-link data-text="Services"><span>Services</span></a>
+      <a href="#gallery" data-link data-text="Gallery"><span>Gallery</span></a>
+      {{NAV_TESTIMONIALS}}
+      <a href="#contact" data-link data-text="Contact"><span>Contact</span></a>
+    </nav>
+
+    <a class="btn btn--sm nav__cta" data-magnetic href="tel:{{PHONE_TEL}}"><span>Book Now</span></a>
+
+    <button class="nav__toggle" type="button" aria-expanded="false" aria-controls="menu" aria-label="Open menu" data-menu-toggle>
+      <span></span><span></span>
+    </button>
+  </div>
+
+  <div class="menu" id="menu" data-menu hidden>
+    <nav class="menu__links" aria-label="Mobile">
+      <a href="#about" data-menu-link><span>About</span></a>
+      <a href="#services" data-menu-link><span>Services</span></a>
+      <a href="#gallery" data-menu-link><span>Gallery</span></a>
+      {{MENU_TESTIMONIALS}}
+      <a href="#contact" data-menu-link><span>Contact</span></a>
+    </nav>
+    <div class="menu__foot">
+      <a href="tel:{{PHONE_TEL}}">{{PHONE_DISPLAY}}</a>
+      <a href="{{INSTAGRAM}}" target="_blank" rel="noopener noreferrer">Instagram</a>
+    </div>
+  </div>
+</header>

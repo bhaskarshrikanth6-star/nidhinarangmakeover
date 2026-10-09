@@ -1,0 +1,13 @@
+{
+  "name": "nidhi-narang-makeovers",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Website for Nidhi Narang Makeovers",
+  "type": "module",
+  "scripts": {
+    "build": "node build.mjs && node check.mjs",
+    "start": "node serve.mjs",
+    "preview": "npm run build && node serve.mjs"
+  },
+  "engines": { "node": ">=18" }
+}
